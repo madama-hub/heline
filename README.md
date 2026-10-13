@@ -35,3 +35,9 @@ To re-encode the original video, install `imageio-ffmpeg` into the checkout-loca
 Review copy and current service availability with the business. The original contact and legal pages list different addresses; company legal details should be reconciled before replacing the existing public legal notice. Sales terms link to the business's existing document. The current site domain has not been modified.
 
 Set `SITE_ORIGIN` to the approved public origin and rebuild when connecting a production domain. Preserve the old site's URL map and configure HTTP redirects on its host. This new Site starts owner-private; search metadata is prepared, but search indexing requires a public release.
+
+## Privacy controls and legal review
+
+A bottom-left privacy notice appears on first visits. It saves no preference until a visitor chooses Accept and remember. Continue without saving and later deletion are available; no analytics or advertising are enabled. The notice uses local storage with a 180-day validity period. French and English cookie/privacy pages are included. Run `node scripts/check-privacy.mjs` for preference expiry, storage failures and page coverage.
+
+See [LEGAL-REVIEW.md](LEGAL-REVIEW.md) for company facts and operational details still requiring confirmation. The legal and privacy pages remain marked for business review and excluded from indexing until `src/legal-profile.mjs` is completed and reviewed.

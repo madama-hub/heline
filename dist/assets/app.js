@@ -54,4 +54,6 @@ if(form){
     status.textContent='';dialog.showModal();
   });
   document.getElementById('copy-request').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(preview.value);status.textContent=fr?'Demande copiée. Vous pouvez la coller dans votre e-mail.':'Request copied. You can paste it into your email.';}catch{preview.focus();preview.select();status.textContent=fr?'Sélectionnez et copiez le texte de votre demande.':'Select and copy the request text.';}});
+  // Enable submission only after the browser-only draft handler is registered.
+  form.querySelector('[data-request-submit]').disabled=false;
 }

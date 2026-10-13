@@ -6,6 +6,6 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "start": "node scripts/serve.mjs",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs && node scripts/check-privacy.mjs"
   }
 }

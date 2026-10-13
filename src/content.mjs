@@ -3,7 +3,7 @@ export const routes = {
   paris:['/aeroports/paris-cdg/','/en/airports/paris-cdg/'], nice:['/aeroports/nice/','/en/airports/nice/'],
   plus:['/services-plus/','/en/additional-services/'], hosts:['/hotesses-evenementielles/','/en/event-hosts/'],
   stays:['/sejours-sur-mesure/','/en/tailored-stays/'], events:['/organisation-evenementielle/','/en/event-organisation/'],
-  booking:['/reservation/','/en/reservation/'], contact:['/contact/','/en/contact/'], legal:['/mentions-legales/','/en/legal/']
+  booking:['/reservation/','/en/reservation/'], contact:['/contact/','/en/contact/'], legal:['/mentions-legales/','/en/legal/'], privacy:['/confidentialite/','/en/privacy/'], cookies:['/cookies/','/en/cookies/']
 };
 export const contact = {email:'contact@helinefirst.com',phone:'+33 (0)6 43 62 81 79',tel:'+33643628179',address:'10, rue de Penthièvre · 75008 Paris · France'};
 export const ui = {
