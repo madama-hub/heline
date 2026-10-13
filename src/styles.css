@@ -23,3 +23,14 @@
 
 /* Keep the following section below the opening mobile viewport. */
 @media(max-width:900px){.hero{height:100vh;height:100dvh;max-height:none}}
+
+/* Show the three airport services together in travel order. */
+.journey-heading{margin-bottom:48px}
+.journey-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px}
+.journey-stage{border-top:1px solid #cad5ce;padding-top:25px}
+.journey-stage h3{font-size:clamp(32px,3.2vw,46px);margin-bottom:22px}
+.journey-stage li{font-size:12px;color:var(--muted);line-height:1.75}
+.journey-stage li+li{margin-top:12px}
+.journey-action{margin-top:38px}
+@media(max-width:900px){.journey-grid{gap:26px}.journey-stage h3{font-size:36px}}
+@media(max-width:640px){.journey-heading{margin-bottom:30px}.journey-grid{grid-template-columns:1fr;gap:30px}.journey-stage{padding-top:20px}.journey-stage h3{font-size:39px;margin-bottom:16px}.journey-stage li{font-size:12px}.journey-stage li+li{margin-top:8px}.journey-action{margin-top:30px}}

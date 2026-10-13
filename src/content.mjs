@@ -11,19 +11,119 @@ export const ui = {
   en:{navAirport:'Airport assistance',navHospitality:'Events & stays',book:'Arrange my welcome',contact:'Contact',discover:'Discover',home:'Home',allServices:'All our services',pause:'Pause video',play:'Play video',menu:'Open menu',close:'Close',learn:'Learn more',back:'Back to home',airportLabel:'Our airports',journeyLabel:'Your journey',arrival:'On arrival',departure:'On departure',connection:'In transit',availability:'Here for you 24 hours a day, 7 days a week',footerLine:'A welcome, thoughtfully considered.',footerAbout:'Attentive assistance, from your arrival to every moment of your stay.',legal:'Legal information',terms:'Terms and conditions',copyright:'All rights reserved.',ctaKicker:'Every journey begins with a welcome',ctaTitle:'Let us take care of your next arrival.',ctaText:'Tell us about your journey or event. We will prepare a service around you.',faqTitle:'Before you travel.',faqKicker:'Your questions',bookingLabel:'Your request',skip:'Skip to content',openMenu:'Menu',source:'Company information',serviceLabel:'Our expertise'}
 };
 export const homeContent = {
-  fr:{title:'Assistance VIP à Paris CDG et Nice | Héline First',description:'Accueil aéroportuaire et Meet & Greet à Paris Charles de Gaulle et Nice Côte d’Azur. Hôtes et hôtesses, évènements et séjours sur mesure. Contact 24h/24, 7j/7.',eyebrow:'PARIS CHARLES DE GAULLE · NICE CÔTE D’AZUR',heading:'L’art de vous<br><em>accueillir.</em>',intro:'L’assistance aéroportuaire, en toute sérénité.<br>Un accueil personnel. Un voyage à votre mesure.',scroll:'Explorer Héline First',chapter:'L’accueil, notre engagement.',introKicker:'Le souci du détail',introTitle:'Vous voyagez.<br>Nous veillons sur <em>le reste.</em>',introText:'Un voyage serein commence bien avant l’arrivée. Héline First vous accompagne à chaque étape, avec discrétion, réactivité et une attention particulière à vos besoins.',introSecond:'De l’accueil aéroportuaire à l’organisation de votre séjour, nos équipes donnent à chaque rencontre sa juste importance.',placesKicker:'Deux destinations, une même attention',placesTitle:'Paris & la <em>Côte d’Azur.</em>',placesText:'Deux portes d’entrée. Le même engagement : vous accueillir personnellement et faciliter votre passage à l’aéroport.',parisSub:'L’élégance d’une arrivée accompagnée.',niceSub:'La sérénité, dès votre arrivée sur la Riviera.',journeyTitle:'À chaque étape,<br><em>à vos côtés.</em>',journeyText:'À l’arrivée, au départ ou entre deux vols, un accompagnement adapté à votre itinéraire.',beyondKicker:'Au-delà de l’aéroport',beyondTitle:'L’attention continue.<br>Les possibilités <em>s’élargissent.</em>',beyondText:'Votre séjour, vos invités, votre évènement : nous coordonnons les détails pour vous laisser profiter de l’essentiel.',processKicker:'Un accompagnement simple',processTitle:'Votre accueil,<br><em>en trois temps.</em>',steps:[['Parlons de votre voyage','Votre aéroport, votre itinéraire et vos attentes : chaque détail nous aide à préparer votre accueil.'],['Préparons votre arrivée','Notre équipe précise avec vous les prestations, le rendez-vous et les modalités de votre accompagnement.'],['Laissez-vous accompagner','À l’heure convenue, votre hôte ou hôtesse vous accueille et vous guide tout au long de votre parcours.']],promise:['Un accueil personnalisé','Des équipes multilingues','Une attention permanente']},
-  en:{title:'VIP Airport Assistance in Paris CDG & Nice | Héline First',description:'Personal airport meet-and-greet at Paris Charles de Gaulle and Nice Côte d’Azur. Event hosts, event organisation and tailored stays. Available 24/7.',eyebrow:'PARIS CHARLES DE GAULLE · NICE CÔTE D’AZUR',heading:'The art of a<br><em>warm welcome.</em>',intro:'Airport assistance, with peace of mind.<br>A personal welcome. A journey shaped around you.',scroll:'Explore Héline First',chapter:'A welcome, thoughtfully considered.',introKicker:'An eye for detail',introTitle:'You travel.<br>We take care of <em>the details.</em>',introText:'A seamless journey begins before you arrive. Héline First accompanies you at every stage, with discretion, responsiveness and particular attention to your needs.',introSecond:'From your airport welcome to your stay, our teams give every encounter the attention it deserves.',placesKicker:'Two destinations, the same attention',placesTitle:'Paris & the <em>French Riviera.</em>',placesText:'Two gateways. One commitment: a personal welcome and attentive assistance through the airport.',parisSub:'An arrival, elegantly accompanied.',niceSub:'Peace of mind, from your first moment on the Riviera.',journeyTitle:'At every stage,<br><em>by your side.</em>',journeyText:'On arrival, on departure or between flights, assistance shaped around your itinerary.',beyondKicker:'Beyond the airport',beyondTitle:'The attention continues.<br>The possibilities <em>open up.</em>',beyondText:'Your stay, your guests, your event: we coordinate the details so you can enjoy what matters.',processKicker:'A straightforward welcome',processTitle:'Your welcome,<br><em>in three steps.</em>',steps:[['Tell us about your journey','Your airport, itinerary and expectations help us prepare a personal welcome.'],['Plan your arrival with us','Our team agrees the services, meeting arrangements and details of your assistance with you.'],['Let us accompany you','At the agreed time, your host welcomes you and guides you through your airport journey.']],promise:['A personal welcome','Multilingual hosts','Attentive assistance']}
+  "fr": {
+    "title": "Assistance VIP à Paris CDG et Nice | Héline First",
+    "description": "Accueil aéroportuaire et Meet and Greet à Paris Charles de Gaulle et Nice Côte d’Azur. Hôtes et hôtesses, évènements et séjours sur mesure. Contact 24h/24, 7j/7.",
+    "heading": "L’art de vous<br><em>accueillir.</em>",
+    "intro": "L’assistance aéroportuaire, en toute sérénité.",
+    "introTitle": "Vous voyagez.<br>Nous veillons sur <em>le reste.</em>",
+    "introText": "Accueil aéroportuaire, séjours et évènements : une équipe attentive pour coordonner chaque détail.",
+    "placesTitle": "Paris et la <em>Côte d’Azur.</em>",
+    "journeyTitle": "Votre parcours <em>aéroportuaire.</em>",
+    "beyondTitle": "Au-delà de <em>l’aéroport.</em>",
+    "beyondText": "Séjours, évènements et accueil de vos invités, selon vos envies.",
+    "processTitle": "Un accueil,<br><em>en toute simplicité.</em>",
+    "steps": [
+      [
+        "Parlez-nous de votre voyage",
+        "Votre aéroport, votre date de voyage et vos besoins."
+      ],
+      [
+        "Confirmons votre accueil",
+        "Nous organisons votre accompagnement et le point de rendez-vous."
+      ],
+      [
+        "Laissez-vous guider",
+        "Votre hôte vous accueille et vous accompagne à l’aéroport."
+      ]
+    ]
+  },
+  "en": {
+    "title": "VIP Airport Assistance in Paris CDG and Nice | Héline First",
+    "description": "Personal airport meet-and-greet at Paris Charles de Gaulle and Nice Côte d’Azur. Event hosts, event organisation and tailored stays. Available 24/7.",
+    "heading": "The art of a<br><em>warm welcome.</em>",
+    "intro": "Airport assistance, with peace of mind.",
+    "introTitle": "You travel.<br>We take care of <em>the details.</em>",
+    "introText": "Airport welcomes, tailored stays and events, with an attentive team to coordinate the details.",
+    "placesTitle": "Paris and the <em>French Riviera.</em>",
+    "journeyTitle": "Your airport <em>journey.</em>",
+    "beyondTitle": "Beyond <em>the airport.</em>",
+    "beyondText": "Stays, events and guest hospitality, arranged around you.",
+    "processTitle": "Your welcome,<br><em>made simple.</em>",
+    "steps": [
+      [
+        "Tell us your plans",
+        "Your airport, travel date and requirements."
+      ],
+      [
+        "Confirm your welcome",
+        "We arrange your assistance and meeting point."
+      ],
+      [
+        "Let us guide you",
+        "Your host welcomes you and accompanies you through the airport."
+      ]
+    ]
+  }
 };
 export const journeys = {
-  fr:[
-    {id:'arrival',title:'Votre arrivée, en douceur.',lead:'Un accueil personnel dès la sortie de l’avion, puis un accompagnement jusqu’à votre véhicule.',items:['Accueil personnalisé à votre arrivée','Assistance aux formalités et au passage prioritaire','Aide à l’immigration, aux douanes et aux bagages','Accompagnement jusqu’à votre véhicule']},
-    {id:'departure',title:'Votre départ, l’esprit libre.',lead:'De votre arrivée au terminal jusqu’aux portes de l’avion ou au salon VIP, nous vous accompagnons.',items:['Rendez-vous à votre arrivée au terminal','Aide à l’enregistrement et aux formalités','Accompagnement aux contrôles et au passage prioritaire','Accompagnement à la porte d’embarquement ou au salon VIP']},
-    {id:'connection',title:'Votre correspondance, accompagnée.',lead:'Entre deux vols, une présence attentive pour vous guider vers la suite de votre voyage.',items:['Accueil à la porte de votre vol d’arrivée','Assistance aux contrôles de sûreté et de passeports','Accompagnement à l’embarquement de votre prochain vol','Aide à la réservation d’un autre vol en cas de correspondance impossible']}
+  "fr": [
+    {
+      "id": "departure",
+      "title": "Au départ",
+      "items": [
+        "Aide à l’enregistrement et aux bagages",
+        "Accompagnement aux contrôles",
+        "Accompagnement à la porte d’embarquement ou au salon"
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "En transit",
+      "items": [
+        "Accueil à votre porte d’arrivée",
+        "Assistance aux contrôles de sûreté et de passeports",
+        "Accompagnement vers votre prochain vol"
+      ]
+    },
+    {
+      "id": "arrival",
+      "title": "À l’arrivée",
+      "items": [
+        "Accueil dès la sortie de l’avion",
+        "Aide aux formalités et aux bagages",
+        "Accompagnement jusqu’à votre véhicule"
+      ]
+    }
   ],
-  en:[
-    {id:'arrival',title:'An arrival, made easier.',lead:'A personal welcome as you leave the aircraft, followed by assistance through the airport to your vehicle.',items:['Personal welcome on arrival','Assistance with formalities and priority passage','Help with immigration, customs and baggage','Accompaniment to your vehicle']},
-    {id:'departure',title:'A departure, with peace of mind.',lead:'From your arrival at the terminal to your aircraft gate or VIP lounge, we accompany you.',items:['Meet your host on arrival at the terminal','Help with check-in and airport formalities','Assistance through checks and priority passage','Accompaniment to your boarding gate or VIP lounge']},
-    {id:'connection',title:'A connection, thoughtfully managed.',lead:'Between flights, an attentive presence to guide you towards the next part of your journey.',items:['Welcome at your arriving flight’s gate','Assistance through security and passport checks','Accompaniment to your onward flight','Help arranging another flight if a connection becomes impossible']}
+  "en": [
+    {
+      "id": "departure",
+      "title": "Departure",
+      "items": [
+        "Check-in and baggage assistance",
+        "Guidance through airport checks",
+        "Escort to your boarding gate or lounge"
+      ]
+    },
+    {
+      "id": "connection",
+      "title": "In transit",
+      "items": [
+        "Welcome at your arrival gate",
+        "Guidance through security and passport checks",
+        "Escort to your connecting flight"
+      ]
+    },
+    {
+      "id": "arrival",
+      "title": "Arrival",
+      "items": [
+        "Welcome as you leave the aircraft",
+        "Help with formalities and baggage",
+        "Escort to your vehicle"
+      ]
+    }
   ]
 };
 export const faqs = {
