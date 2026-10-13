@@ -20,3 +20,6 @@
 .language{gap:14px}.hero-bottom{justify-content:flex-end}.nav-group[open]>summary{text-decoration:underline;text-underline-offset:5px}.faq-list summary:hover,.additional-form summary:hover{text-decoration:underline;text-underline-offset:4px}.field select{appearance:none}.dialog-close{width:auto;min-width:65px;height:auto;border-radius:40px;padding:6px 12px;font-size:10px}
 @media(min-width:901px){.hero{height:100vh;height:100dvh;min-height:0;max-height:none}.hero-content{padding-top:clamp(140px,25dvh,300px)}.hero h1{font-size:clamp(64px,min(7.8vw,14dvh),128px)}}
 @media(min-width:901px) and (max-height:650px){.header-inner{height:80px}.hero-content{padding-top:110px}.hero-badge{padding-block:6px;margin-bottom:18px}.hero h1{font-size:clamp(56px,14dvh,72px)}.hero-intro{margin-top:16px;font-size:12px;line-height:1.6}.hero-actions{margin-top:20px}.hero-bottom{bottom:20px}}
+
+/* Keep the following section below the opening mobile viewport. */
+@media(max-width:900px){.hero{height:100vh;height:100dvh;max-height:none}}
